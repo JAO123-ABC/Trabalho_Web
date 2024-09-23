@@ -57,14 +57,16 @@ section{
 }
 
 i{
-    
-    display: flex; 
-    
+
+    justify-content: center;
+    display: flex;
+    color: black;
+    gap: 20px;
 }
 
 
 i:hover{
-    
+    font-size: 40px;
     color: yellow; 
 }
 
