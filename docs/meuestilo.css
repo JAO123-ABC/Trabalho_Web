@@ -39,7 +39,8 @@ img{
     }
 
 section{
-    border: 6px outset;
+    
+    border: 6px double;
     margin: 2%;
     box-shadow: 5px 5px 5px;
     
