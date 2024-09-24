@@ -3,7 +3,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex-container{
+.titulo{
+    text-align: center;
+    margin: 10%;
+}
+
+.menu{
     
     font-size: 20px;
     display: flex;
@@ -12,31 +17,33 @@ body{
     text-shadow: 30%; 
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
-
-
-.flex-container a{
+.menu a{
     text-decoration: solid;
     color: black;  
 }
 
-.flex-container a:hover{
+.menu a:hover{
     font-size: 20px;
-    color: yellow;
+    color:gold;
+}
+
+p,h2{
+    margin: 1%; 
 }
 
 img{
     border-radius: 40% 
+    
     }
 
-.titulo{
-    text-align: center;
-    margin: 5%;
-}
-
 section{
-    border-bottom: outset;
+    border: 6px outset;
+    margin: 2%;
+    box-shadow: 5px 5px 5px;
+    
 }
 
 .contat{
@@ -48,26 +55,25 @@ section{
 }
 
 .icon{
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    color: black;
-
+    gap: 30px;
+    
 }
 
 i{
-    font-size: 50px;
+    font-size: 60px;
     justify-content: center;
     display: flex;
     color: black;
-    gap: 20px;
+    gap: 30px;
+   
 }
 
-
 i:hover{
-    font-size: 40px;
-    color: yellow; 
+    color: gold; 
+     
 }
 
 
