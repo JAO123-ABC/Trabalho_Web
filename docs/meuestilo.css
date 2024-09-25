@@ -15,8 +15,7 @@ body{
     padding: 30px;
     box-shadow: 10px 15px 40px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .menu a{
@@ -27,7 +26,6 @@ body{
 .menu a:hover{
     font-size: 20px;
     color:gold;
-    
 }
 
 p,h2{
@@ -36,7 +34,6 @@ p,h2{
 
 img{
     border-radius: 40% 
-    
     }
 
 section{
@@ -44,7 +41,6 @@ section{
     border: 6px double;
     margin: 2%;
     box-shadow: 5px 5px 5px;
-    
 }
 
 .tex{
@@ -62,7 +58,6 @@ section{
     justify-content: center;
     gap: 30px;
     margin: 1%;
-    
 }
 
 i{
@@ -70,13 +65,10 @@ i{
     justify-content: center;
     display: flex;
     color: black;
-    gap: 30px;
-   
 }
 
 i:hover{
-    color: gold; 
-     
+    color: gold;    
 }
 
 
